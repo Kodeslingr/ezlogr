@@ -1,13 +1,13 @@
 # EZlogR for Python!
 ## Overview
+[Project info at Pypi](https://pypi.org/project/EZlogR/) <br>
 This module helps developers focus on writing code and less time worrying about writing logs. 
 
 ## How it works
 EZlogR gives a standardized way for developers to write logs, and creates these logs in JSON format. JSON is easily digestable by a multitude of programs and databases. This lets the developer have the option to easily pull the logs into something like MongoDB, a JSON viewing tool, or still be easily human readable due to the simplified and flat nature of the JSON packing.
 
 ## Installation
-[Pypi link](https://pypi.org/project/EZlogR/)
-install EZlogR using pip or pip3: <br>
+Install EZlogR using pip or pip3: <br>
 `pip install ezlogr`<br> 
 or <br>
 `pip3 install ezlogr`
