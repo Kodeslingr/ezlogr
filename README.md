@@ -35,3 +35,8 @@ time.sleep(1)
 logger.info("I'm doing it again!")
 ```
 
+## Output
+```
+{'filename': '/Users/jeremy/simple_sample.py', 'log_level': 'info', 'hrtimestamp': 'Wed Jun 17 10:07:23 2020', 'datestamp': '17062020', 'timestamp': '100723.921712', 'log_msg': "Here I go writin' logs!", 'tags': '["Very cool app", "non-prod"]'}
+{'filename': '/Users/jeremy/simple_sample.py', 'log_level': 'info', 'hrtimestamp': 'Wed Jun 17 10:07:24 2020', 'datestamp': '17062020', 'timestamp': '100724.926889', 'log_msg': "I'm doing it again!", 'tags': '["Very cool app", "non-prod"]'}
+```
