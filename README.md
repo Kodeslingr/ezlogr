@@ -7,7 +7,9 @@ EZlogR gives a standardized way for developers to write logs, and creates these 
 
 ## Installation
 install EZlogR using pip or pip3: <br>
-`pip install ezlogr` or `pip3 install ezlogr`
+`pip install ezlogr`<br> 
+or<br>
+`pip3 install ezlogr`
 
 ## Usage
 Below is a simple python file that shows EZlogR in action:
