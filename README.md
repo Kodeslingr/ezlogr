@@ -12,7 +12,7 @@ or<br>
 `pip3 install ezlogr`
 
 ## Usage
-Here is a simple python file that shows EZlogR in action.
+Here is a simple python file that shows EZlogR in action.<br>
 Filename: `simple_sample.py`
 ```
 #!/usr/bin/env python3
@@ -36,7 +36,7 @@ logger.info("I'm doing it again!")
 ```
 
 ## Output
-After using EZlogR, you will see logs like this: 
+After using EZlogR, you will see logs like this:<br> 
 Filename: `simple_sample.py.log`
 ```
 {'filename': '/Users/jeremy/simple_sample.py', 'log_level': 'info', 'hrtimestamp': 'Wed Jun 17 10:07:23 2020', 'datestamp': '17062020', 'timestamp': '100723.921712', 'log_msg': "Here I go writin' logs!", 'tags': '["Very cool app", "non-prod"]'}
