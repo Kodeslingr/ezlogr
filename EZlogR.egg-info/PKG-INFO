@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: EZlogR
+Version: 0.8.dev0
+Summary: This is a simple logging tool to help devs focus on writing code instead of writing logs.
+Home-page: http://www.ezlogr.com
+Author: Jeremy Gillespie
+Author-email: jeremy@kodeslingr.com
+License: MIT
+Description: This app will make collecting and viewing logs from Python projects EZ!
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6

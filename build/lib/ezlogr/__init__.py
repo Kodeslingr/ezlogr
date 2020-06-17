@@ -3,7 +3,7 @@ import logging
 import datetime
 
 class Ezlogr(object):
-    def __init__(self, filename, tags):
+    def __init__(self, filename=None, tags=None):
         """Thisis the main setup method for Ezlogr. Here we pull in the filename and tags, as well
         as setup the logger. The formatting here is minimal because we will be saving everything
         as JSON!
@@ -95,6 +95,5 @@ class Ezlogr(object):
         log_body = self.log_builder(log_level, hrtimestemp, datestamp, timestamp, log_msg, tags)
         self.logger.info(log_body)
 
-#my_message = StructuredMessage   # optional, to improve readability
-#logging.basicConfig(level=logging.INFO, format='%(message)s')
-#logging.info(my_message('message 1', foo='bar', bar='baz', num=123, fnum=123.456))
+filename = __file__
+logger = Ezlogr(filename=filename)

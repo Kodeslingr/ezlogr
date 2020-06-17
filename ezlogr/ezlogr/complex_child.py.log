@@ -1,1 +1,0 @@
-{'filename': '/Users/jeremy/code/ezlogr/ezlogr/ezlogr/complex_child.py', 'log_level': 'info', 'hrtimestamp': 'Mon Jun 15 16:46:34 2020', 'datestamp': '15062020', 'timestamp': '164634.903018', 'log_msg': "I'm writing a log from complex_child", 'tags': '["Very cool app!", "non-prod"]'}
