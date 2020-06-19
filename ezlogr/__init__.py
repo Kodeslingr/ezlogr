@@ -1,3 +1,6 @@
+"""This is the main file that runs when the module is loaded. 
+"""
+
 import json
 import logging
 import datetime
