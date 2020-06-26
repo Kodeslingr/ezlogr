@@ -3,3 +3,4 @@ build/
 EZlogR.egg-info/
 src/ezlogr/tests/*.log
 src/ezlogr/__pycache__/
+src/ezlogr/tests/__pycache__/
