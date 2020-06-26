@@ -10,7 +10,7 @@ EZlogR gives a standardized way for developers to write logs, and creates these 
 This version of EZlogR is compatible with Python3.6 and later.
 
 ## Installation
-Install EZlogR using pip or pip3: <br>
+Install EZlogR using pip (if using a Python3 virtualenv or similar) or pip3: <br>
 `pip install ezlogr`<br> 
 or <br>
 `pip3 install ezlogr`
