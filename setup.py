@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name='EZlogR',
-    version='0.2.0.dev1',
+    version='0.2.0.dev2',
     author='Jeremy Gillespie',
     author_email='jeremy@kodeslingr.com',
     url='http://www.ezlogr.com',
