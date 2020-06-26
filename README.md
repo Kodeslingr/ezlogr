@@ -6,6 +6,9 @@ This module helps developers focus on writing code and less time worrying about 
 ## How it works
 EZlogR gives a standardized way for developers to write logs, and creates these logs in JSON format. JSON is easily digestable by a multitude of programs and databases. This lets the developer have the option to easily pull the logs into something like MongoDB, a JSON viewing tool, or still be easily human readable due to the simplified and flat nature of the JSON packing.
 
+## Compatibility
+This version of EZlogR is compatible with Python3.6 and later.
+
 ## Installation
 Install EZlogR using pip or pip3: <br>
 `pip install ezlogr`<br> 
