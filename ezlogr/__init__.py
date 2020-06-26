@@ -14,9 +14,9 @@ class Ezlogr(object):
         self.tags = tags
         self.filename = filename
         self.logger = logging.getLogger(filename)
-        self.logger.setLevel(logging.INFO)
+        self.logger.setLevel(logging.DEBUG)
         self.handler = logging.FileHandler(filename + ".log")
-        self.handler.setLevel(logging.INFO)
+        self.handler.setLevel(logging.DEBUG)
         self.logger.addHandler(self.handler)
     
     def create_timestamp(self, now):
@@ -102,7 +102,7 @@ class Ezlogr(object):
         """This is the critical method for writing warn level logs.
         """
         now = datetime.datetime.now()
-        log_level = "critical"
+        log_level = "debug"
         datestamp = self.create_datestamp(now)
         timestamp = self.create_timestamp(now)
         hrtimestemp = self.create_human_readable_timestamp(now)
