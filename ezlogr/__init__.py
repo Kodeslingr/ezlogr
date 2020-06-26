@@ -78,13 +78,13 @@ class Ezlogr(object):
         """This is the warn method for writing warn level logs.
         """
         now = datetime.datetime.now()
-        log_level = "warn"
+        log_level = "warning"
         datestamp = self.create_datestamp(now)
         timestamp = self.create_timestamp(now)
         hrtimestemp = self.create_human_readable_timestamp(now)
         tags = json.dumps(self.tags)
         log_body = self.log_builder(log_level, hrtimestemp, datestamp, timestamp, log_msg, tags)
-        self.logger.info(log_body)
+        self.logger.warning(log_body)
       
     def critical(self, log_msg, tags=None):
         """This is the critical method for writing warn level logs.
@@ -96,4 +96,16 @@ class Ezlogr(object):
         hrtimestemp = self.create_human_readable_timestamp(now)
         tags = json.dumps(self.tags)
         log_body = self.log_builder(log_level, hrtimestemp, datestamp, timestamp, log_msg, tags)
-        self.logger.info(log_body)
+        self.logger.critical(log_body)
+
+    def debug(self, log_msg, tags=None):
+        """This is the critical method for writing warn level logs.
+        """
+        now = datetime.datetime.now()
+        log_level = "critical"
+        datestamp = self.create_datestamp(now)
+        timestamp = self.create_timestamp(now)
+        hrtimestemp = self.create_human_readable_timestamp(now)
+        tags = json.dumps(self.tags)
+        log_body = self.log_builder(log_level, hrtimestemp, datestamp, timestamp, log_msg, tags)
+        self.logger.debug(log_body)
