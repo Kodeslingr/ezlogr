@@ -1,3 +1,4 @@
 dist/
 build/
 EZlogR.egg-info/
+src/ezlogr/tests/*.log
