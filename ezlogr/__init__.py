@@ -7,7 +7,7 @@ import datetime
 
 class Ezlogr(object):
     def __init__(self, filename=None, tags=None):
-        """Thisis the main setup method for Ezlogr. Here we pull in the filename and tags, as well
+        """This is the main setup method for Ezlogr. Here we pull in the filename and tags, as well
         as setup the logger. The formatting here is minimal because we will be saving everything
         as JSON!
         """
